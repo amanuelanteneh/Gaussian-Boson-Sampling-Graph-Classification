@@ -6,6 +6,6 @@ The basic idea of the quantum machine learning algorithm is to encode the adjaca
 using thereshold detectors which click when they detect any photons as opposed to photon number resolving detectors which count exactly how many photons are detected.
 
 The probability of detecting a specific photon pattern <img src="https://render.githubusercontent.com/render/math?math=\textbf{n}"> is 
-<img src="https://render.githubusercontent.com/render/math?math={p(\textbf{n}) = \frac{1}{\sqrt{\textrm{det}(Q)}}\frac{|\textrm{Haf}(A_{\textbf{n}})|^2}{\textbf{n}!}">.
+<img src="https://render.githubusercontent.com/render/math?math={p(\textbf{n})=\frac{1}{\sqrt{\textrm{det}(Q)}}\frac{|\textrm{Haf}(A_{\textbf{n}})|^2}{\textbf{n}!}">.
 
 Folders are named after the model used to benchmark the new
