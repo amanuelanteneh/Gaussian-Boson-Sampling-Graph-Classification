@@ -8,3 +8,11 @@ Mean number of photons: 5.0
 Displacement on each mode: 0.0 
 Max photon number: 6 
 
+Data set    ER_MD
+----------  ------------
+SVM         67.87 ± 0.77
+RF          67.07 ± 1.00
+
+real	6627m0.142s
+user	6608m26.117s
+sys	1m50.810s
