@@ -8,21 +8,20 @@ Data set    AIDS
 SVM         99.60 ± 0.05  # better than all except GBS0 (tie)
 RF          99.65 ± 0.02
 
-# Next 3 dataset results were from a previous run where only 3000 samples were taken
 Data set    BZR_MD
 ----------  ------------
-SVM         62.42 ± 1.61 # better than GBS+0, GS, RW & SM 
-RF          62.84 ± 2.12
+SVM         63.16 ± 1.09 # better than all since S.D. is smaller with same mean test accuracy 
+RF          62.73 ± 1.45
 
 Data set    COX2_MD
 ----------  ------------
-SVM         51.72 ± 4.29 # better than GBS0
-RF          43.44 ± 2.55
+SVM         53.37 ± 4.31 # better than GBS0
+RF          47.58 ± 5.43
 
 Data set    ER_MD
 ----------  ------------
-SVM         66.93 ± 0.79 # Better than GS
-RF          65.50 ± 1.62
+SVM         67.87 ± 0.77 #better than GS 
+RF          67.07 ± 1.00
 
 
 Data set    ENZYMES
