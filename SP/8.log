@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PROTEINS            515         15.7728        29.3767            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    PROTEINS
+----------  ------------
+SVM         73.56 ± 1.13
+RF          69.96 ± 0.89
+
+real	335m13.690s
+user	253m38.384s
+sys	26m3.336s

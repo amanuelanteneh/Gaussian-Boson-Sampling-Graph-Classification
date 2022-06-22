@@ -1,0 +1,61 @@
+Number of samples per graph: 4500 
+Mean number of photons: 5.0 
+Displacement on each mode: 0.0 
+Max photon number: 6 
+
+Data set    AIDS
+----------  ------------
+SVM         99.60 ± 0.05  # better than all except GBS0 (tie)
+RF          99.65 ± 0.02
+
+# Next 3 dataset results were from a previous run where only 3000 samples were taken
+Data set    BZR_MD
+----------  ------------
+SVM         62.42 ± 1.61 # better than GBS+0, GS, RW & SM 
+RF          62.84 ± 2.12
+
+Data set    COX2_MD
+----------  ------------
+SVM         51.72 ± 4.29 # better than GBS0
+RF          43.44 ± 2.55
+
+Data set    ER_MD
+----------  ------------
+SVM         66.93 ± 0.79 # Better than GS
+RF          65.50 ± 1.62
+
+
+Data set    ENZYMES
+----------  ------------
+SVM         20.13 ± 1.98 # better than none
+RF          26.88 ± 2.17
+
+
+Data set    IMDB-BINARY
+----------  -------------
+SVM         66.97 ± 0.64 # Better than GBS0 & RW
+RF          65.91 ± 0.81
+
+
+Data set    MUTAG
+----------  ------------
+SVM         82.81 ± 0.50 # better than GS
+RF          80.52 ± 0.78
+
+
+Data set    NCI1
+----------  ------------
+SVM         57.37 ± 1.61 # Better than GS, RW & SM
+RF          59.89 ± 0.55
+
+
+Data set    PROTEINS
+----------  ------------
+SVM         63.85 ± 0.48 # Better than RW & SM
+RF          63.44 ± 0.37
+
+
+Data set    PTC_FM
+----------  ------------
+SVM         58.83 ± 1.98 # Better than GBS0, RW & SM
+RF          55.23 ± 1.83

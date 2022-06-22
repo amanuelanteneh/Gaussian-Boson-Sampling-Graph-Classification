@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+AIDS               1723         11.1184        11.2925            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    AIDS
+----------  ------------
+SVM         98.46 ± 0.18
+RF          98.58 ± 0.14
+
+real	1561m24.408s
+user	1547m50.265s
+sys	1m15.714s

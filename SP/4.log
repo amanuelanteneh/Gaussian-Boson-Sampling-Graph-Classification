@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ER_MD               357         19.2717        185.157            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    ER_MD
+----------  ------------
+SVM         68.47 ± 0.70
+RF          71.66 ± 1.57
+
+real	107m7.785s
+user	106m42.804s
+sys	0m7.912s

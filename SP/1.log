@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+BZR_MD              257         20.1012        197.696            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    BZR_MD
+----------  ------------
+SVM         68.17 ± 0.92
+RF          63.20 ± 1.66
+
+real	98m15.362s
+user	97m51.544s
+sys	0m8.151s

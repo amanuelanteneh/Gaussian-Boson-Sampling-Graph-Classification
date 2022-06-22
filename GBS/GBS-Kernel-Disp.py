@@ -15,7 +15,6 @@ from grakel import GraphKernel, Graph
 #import quantum optics librarys
 from thewalrus.samples import torontonian_sample_state
 from thewalrus.quantum import gen_Qmat_from_graph, Covmat
-from strawberryfields.apps import sample
 
 #import standard py libraries
 from tabulate import tabulate
@@ -63,24 +62,26 @@ desired number of samples in a for loop and run it 10 times each times freeing t
 """
 def calcFeatureVector(adjMatrix, numSamples, meanN, displacement, maxPhotons, maxModes):
   
-  
+  Q = gen_Qmat_from_graph(adjMatrix, meanN)
+  V = Covmat(Q, hbar=2)
+  modes = V.shape[0]
+  d = np.full( shape=(modes), fill_value=displacement, dtype=np.float64 )
   M = maxModes 
   N = numSamples//10 # 1/10 total number of samples to avoid OUT_OF_MEMORY error
   v = [] # feature vector
-    
+
   for i in range(0, M+1): #create vector of 0's of length M+1
     v.append(0)
     
   for i in range(10):
-    # use strawberry fields sample module to generate GBS samples
-    samples = sample.sample(adjMatrix, meanN, N, threshold=True)
+    # use the walrus module to generate GBS samples b/c SF does not support adding displacement
+    samples = torontonian_sample_state(cov=V, mu=d, samples=N, max_photons=maxPhotons, parallel=True) 
    
     for L in samples: #for each sample add up all photons seen in each mode
       numClicks = sum(L) 
       v[numClicks] += 1
-      
-    samples.clear() #clear array to free up memory
     
+
 
   for i in range(len(v)): #divide each entry by total number of samples to get probability
       v[i] /= numSamples

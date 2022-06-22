@@ -1,0 +1,16 @@
+Data set       Number of     Avg. Number    Avg. Number    Number of
+                  Graphs     of Vertices       of Edges      Classes
+-----------  -----------  --------------  -------------  -----------
+IMDB-BINARY          806         15.9814        63.3226            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    IMDB-BINARY
+----------  -------------
+SVM         nan ± nan
+RF          nan ± nan
+
+real	0m6.173s
+user	0m2.946s
+sys	0m0.517s

@@ -25,9 +25,7 @@ import warnings  #to ignore complex cast warning
 warnings.filterwarnings('ignore')
 
 """
-Given a list of dataset names returns dict of tuples.
-Dict keys are dataset names and values are tuples with index 0 being
-a list of nx graphs and index 1 being a list of class labels for each nx graph
+Given a dataset name returns a tuple of form (X, y, maxNodes)
 """
 def preprocessDatasets(datasetName, removeIsolates=True, keepLargestCC=False):
 
@@ -63,18 +61,15 @@ def preprocessDatasets(datasetName, removeIsolates=True, keepLargestCC=False):
 Function to generate feature vectors, to avoid OUT_OF_MEMORY error on computing cluster we generate 1/10 the
 desired number of samples in a for loop and run it 10 times each times freeing the memory by deleting the original samples
 """
-def generateFeatVector(adjMatrix, numSamples, meanN, displacement, maxPhotons, maxModes):
+def calcFeatureVector(adjMatrix, numSamples, meanN, displacement, maxPhotons, maxModes):
   
   
   M = maxModes 
   N = numSamples//10 # 1/10 total number of samples to avoid OUT_OF_MEMORY error
-  v1 = [] # first half of feature vector
-  v2 = [] # second half of feature vector
+  v = [] # feature vector
     
-  for i in range(0, M): #create vector of 0's of length M
-    v1.append(0)
   for i in range(0, M+1): #create vector of 0's of length M+1
-    v2.append(0)
+    v.append(0)
     
   for i in range(10):
     # use strawberry fields sample module to generate GBS samples
@@ -82,14 +77,10 @@ def generateFeatVector(adjMatrix, numSamples, meanN, displacement, maxPhotons, m
    
     for L in samples: #for each sample add up all photons seen in each mode
       numClicks = sum(L) 
-      v2[numClicks] += 1
+      v[numClicks] += 1
       
-      for j in range(len(L)): 
-        v1[j] += L[j]
-  
     samples.clear() #clear array to free up memory
     
-  v = v1 + v2 # combine lists to make the feature vector of size 2*maxNodes + 1
 
   for i in range(len(v)): #divide each entry by total number of samples to get probability
       v[i] /= numSamples
@@ -134,8 +125,6 @@ print("\nNumber of samples per graph:", numSamples,"\nMean number of photons:", 
 avgPhotons, "\nDisplacement on each mode:", displacement, "\nMax photon number:", maxPhotons, "\n", flush=True)
 
 
-
-
 paramGridSVM = [{'C': [1e-4, 1e-3, 1e-2, 1e-1, 1e0 ,1e2, 1e3]}]
     
 paramGridRF = [{'n_estimators': [10, 50, 100, 250], 
@@ -148,10 +137,11 @@ accuraciesRF = []
 
 featureVectors = []
 
+# loop to generate feature vector for each graph
 for g in X:
   adjMat = nx.to_numpy_array(g) 
 
-  v = generateFeatVector(adjMat, numSamples, avgPhotons, displacement, maxPhotons, maxNodes) 
+  v = calcFeatureVector(adjMat, numSamples, avgPhotons, displacement, maxPhotons, maxNodes) 
     
   featureVectors.append(v)
   
@@ -177,7 +167,7 @@ for i in range(10): # 10 repeats of double cross validation
   accuraciesSVM.append(np.mean(scoresSVM['test_score']))
   accuraciesRF.append(np.mean(scoresRF['test_score']))
 
-  # Get stats of this fold and print
+  # Mean and std of this fold
   testMeanSVM = np.mean(scoresSVM['test_score'])
   testStdSVM = np.std(scoresSVM['test_score'])
     

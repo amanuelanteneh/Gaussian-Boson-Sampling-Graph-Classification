@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+ENZYMES             204         18.5637        36.3039            6
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    ENZYMES
+----------  ------------
+SVM         60.24 ± 1.38
+RF          56.55 ± 2.77
+
+real	85m57.282s
+user	85m35.192s
+sys	0m8.324s

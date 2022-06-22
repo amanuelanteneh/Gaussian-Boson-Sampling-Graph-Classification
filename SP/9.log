@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+PTC_FM              284         13.6408         13.993            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    PTC_FM
+----------  ------------
+SVM         58.46 ± 2.66
+RF          54.80 ± 1.26
+
+real	168m59.473s
+user	131m31.955s
+sys	13m53.368s

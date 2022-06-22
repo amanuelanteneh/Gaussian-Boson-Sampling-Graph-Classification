@@ -1,0 +1,18 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+AIDS               1723        11.2925         11.1184            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 7.0 
+Displacement on each mode: 0.0 
+Max photon number: 9 
+
+Data set    AIDS
+----------  ------------
+SVM         99.62 ± 0.03
+RF          99.64 ± 0.02
+
+real	1043m54.631s
+user	1040m55.590s
+sys	0m25.279s

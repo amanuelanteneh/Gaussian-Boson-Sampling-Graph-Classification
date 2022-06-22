@@ -1,0 +1,16 @@
+Data set      Number of     Avg. Number    Avg. Number    Number of
+                 Graphs     of Vertices       of Edges      Classes
+----------  -----------  --------------  -------------  -----------
+MUTAG               179          17.486        19.2346            2
+
+Kernel: Shortest Path 
+Parameters: Default GraKel parameters 
+
+Data set    MUTAG
+----------  ------------
+SVM         80.53 ± 1.50
+RF          84.48 ± 1.05
+
+real	68m51.125s
+user	68m27.412s
+sys	0m11.617s
