@@ -14,7 +14,7 @@ $$ p(\textbf{n}) = \frac{1}{\sqrt{\textrm{det}(Q)}}\frac{|\textrm{Haf}(A_{\textb
 
 where
 
-$$     Q = (\mathbb{I}_{2M} - X\tilde{A})^{-1}, \quad X =  \begin{bmatrix} 0 & \mathbb{I}_{M}\\ \mathbb{I}_{M} & 0    $$,
+$$     Q = (\mathbb{I}_{2M} - X\tilde{A})^{-1}),    $$,
    
 $\textbf{n}! = n_1!\times...\times n_M!$ and Haf() denoting the Hafnian of the matrix.
 
