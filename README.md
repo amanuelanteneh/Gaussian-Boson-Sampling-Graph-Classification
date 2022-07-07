@@ -14,8 +14,8 @@ $$ p(\textbf{n}) = \frac{1}{\sqrt{\textrm{det}(Q)}}\frac{|\textrm{Haf}(A_{\textb
 
 where
 
-$$ Q = (\mathbb{I}_{2M} - X\tilde{A})^{-1}, \quad X =  \begin{bmatrix}0 & \mathbb{I}_M\\\ \mathbb{I}_M & 0\end{bmatrix} $$,
+$$ Q = (\mathbb{I}_{2M} - X\tilde{A})^{-1}, \quad X =  \begin{bmatrix}0 & \mathbb{I}_M\\\ \mathbb{I}_M & 0\end{bmatrix}, $$
    
-$\textbf{n}! = n_1!\times...\times n_M!$ and Haf() denoting the Hafnian of the matrix.
+$\textbf{n}! = n_1!\times...\times n_M!$ and $\textrm{Haf()}$ denoting the Hafnian of the matrix.
 
 Folders are named after the model used to benchmark the new feature vectors. NN being the multi-layer perceptron model, GBS being the Gaussian boson sampling model, RW being the random walk kernel, SP being the shortest path kernel, SM being the subgraph matchin kernel and GS being the graphlet sampling kernel.
