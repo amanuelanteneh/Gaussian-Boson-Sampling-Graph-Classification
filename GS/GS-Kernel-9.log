@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+PTC_FM              284         13.6408            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    PTC_FM
+----------  ------------
+SVM         60.12 ± 1.91
+RF          53.83 ± 1.93
+
+real	802m2.334s
+user	799m44.781s
+sys	0m20.862s

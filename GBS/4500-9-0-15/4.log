@@ -1,0 +1,18 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+ER_MD               357        185.157         19.2717            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 9.0 
+Displacement on each mode: 0.0 
+Max photon number: 15 
+
+Data set    ER_MD
+----------  ------------
+SVM         69.65 ± 0.54
+RF          69.32 ± 1.10
+
+real	3652m56.285s
+user	3610m20.335s
+sys	33m31.321s

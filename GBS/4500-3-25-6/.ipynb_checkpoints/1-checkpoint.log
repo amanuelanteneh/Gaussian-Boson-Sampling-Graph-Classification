@@ -1,0 +1,19 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+BZR_MD              257        197.696         20.1012            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 3.0 
+Displacement on each mode: 0.25 
+Max photon number: 6 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    BZR_MD
+----------  ------------
+SVM         62.19 ± 0.97
+RF          59.39 ± 1.61
+
+real	411m46.117s
+user	408m25.451s
+sys	2m19.583s

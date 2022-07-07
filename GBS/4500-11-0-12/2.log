@@ -8,3 +8,4 @@ Mean number of photons: 11.0
 Displacement on each mode: 0.0 
 Max photon number: 12 
 
+slurmstepd: error: *** JOB 40409799 ON udc-ba25-34c1 CANCELLED AT 2022-06-28T13:47:44 DUE TO TIME LIMIT ***

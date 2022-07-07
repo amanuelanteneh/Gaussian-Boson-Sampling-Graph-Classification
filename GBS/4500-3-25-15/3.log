@@ -1,0 +1,19 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+ENZYMES             204        36.3039         18.5637            6
+
+Number of samples per graph: 4500 
+Mean number of photons: 3.0 
+Displacement on each mode: 0.25 
+Max photon number: 15 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    ENZYMES
+----------  ------------
+SVM         20.07 ± 2.09
+RF          20.22 ± 1.88
+
+real	417m17.907s
+user	414m42.957s
+sys	1m33.077s

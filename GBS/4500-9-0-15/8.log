@@ -1,0 +1,18 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+PROTEINS            515        29.3767         15.7728            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 9.0 
+Displacement on each mode: 0.0 
+Max photon number: 15 
+
+Data set    PROTEINS
+----------  ------------
+SVM         61.76 ± 0.88
+RF          62.45 ± 0.99
+
+real	1060m53.225s
+user	1051m29.672s
+sys	6m24.419s

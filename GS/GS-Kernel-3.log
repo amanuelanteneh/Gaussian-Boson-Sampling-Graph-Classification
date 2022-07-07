@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+ENZYMES             204         18.5637            6
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    ENZYMES
+----------  ------------
+SVM         35.10 ± 1.87
+RF          32.34 ± 1.42
+
+real	554m43.441s
+user	553m7.015s
+sys	0m15.945s

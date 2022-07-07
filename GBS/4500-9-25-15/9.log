@@ -1,0 +1,19 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+PTC_FM              284         13.993         13.6408            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 9.0 
+Displacement on each mode: 0.25 
+Max photon number: 15 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    PTC_FM
+----------  ------------
+SVM         61.83 ± 1.31
+RF          51.77 ± 2.31
+
+real	1267m44.472s
+user	1260m49.609s
+sys	3m49.365s

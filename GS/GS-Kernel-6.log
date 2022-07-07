@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+MUTAG               179          17.486            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    MUTAG
+----------  ------------
+SVM         81.10 ± 0.95
+RF          79.04 ± 1.61
+
+real	470m38.496s
+user	469m9.811s
+sys	0m18.161s

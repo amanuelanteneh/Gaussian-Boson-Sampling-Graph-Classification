@@ -1,0 +1,19 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+AIDS               1723        11.2925         11.1184            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 9.0 
+Displacement on each mode: 0.25 
+Max photon number: 15 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    AIDS
+----------  ------------
+SVM         99.61 ± 0.03
+RF          99.65 ± 0.00
+
+real	2987m11.466s
+user	2971m0.439s
+sys	9m2.930s

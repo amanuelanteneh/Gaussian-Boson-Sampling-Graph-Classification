@@ -1,0 +1,18 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+PTC_FM              284         13.993         13.6408            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 15.0 
+Displacement on each mode: 0.0 
+Max photon number: 18 
+
+Data set    PTC_FM
+----------  ------------
+SVM         61.50 ± 1.14
+RF          55.77 ± 2.01
+
+real	853m45.016s
+user	851m25.122s
+sys	0m15.009s

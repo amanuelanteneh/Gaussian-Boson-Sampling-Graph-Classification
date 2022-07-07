@@ -1,0 +1,19 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+COX2_MD             118        274.407         23.9068            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 3.0 
+Displacement on each mode: 0.25 
+Max photon number: 6 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    COX2_MD
+----------  ------------
+SVM         50.89 ± 2.04
+RF          49.47 ± 2.61
+
+real	259m16.611s
+user	257m34.230s
+sys	1m2.822s

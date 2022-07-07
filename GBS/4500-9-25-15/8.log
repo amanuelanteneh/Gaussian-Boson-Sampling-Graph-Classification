@@ -1,0 +1,19 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+PROTEINS            515        29.3767         15.7728            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 9.0 
+Displacement on each mode: 0.25 
+Max photon number: 15 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    PROTEINS
+----------  ------------
+SVM         62.36 ± 0.73
+RF          62.72 ± 1.06
+
+real	4856m43.279s
+user	4829m56.446s
+sys	13m10.282s

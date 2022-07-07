@@ -8,3 +8,8 @@ Mean number of photons: 11.0
 Displacement on each mode: 0.0 
 Max photon number: 12 
 
+slurmstepd: error: *** JOB 40409801 ON udc-aw29-20b CANCELLED AT 2022-06-28T13:47:44 DUE TO TIME LIMIT ***
+slurmstepd: error: error from open of cgroup '/sys/fs/cgroup/memory/slurm/uid_944600/job_40409801/step_batch' : No such file or directory
+slurmstepd: error: xcgroup_lock error: No such file or directory
+slurmstepd: error: problem with oom_pipe[0]
+slurmstepd: fatal: cgroup_v1.c:1352 _oom_event_monitor: pthread_mutex_lock(): Invalid argument

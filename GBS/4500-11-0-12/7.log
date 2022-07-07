@@ -8,3 +8,11 @@ Mean number of photons: 11.0
 Displacement on each mode: 0.0 
 Max photon number: 12 
 
+Data set    NCI1
+----------  ------------
+SVM         57.13 ± 1.37
+RF          60.88 ± 0.59
+
+real	6980m58.042s
+user	6963m47.615s
+sys	0m28.120s

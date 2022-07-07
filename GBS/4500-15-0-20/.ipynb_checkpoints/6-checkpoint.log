@@ -1,0 +1,18 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+MUTAG               179        19.2346          17.486            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 15.0 
+Displacement on each mode: 0.0 
+Max photon number: 20 
+
+Data set    MUTAG
+----------  ------------
+SVM         81.44 ± 1.16
+RF          80.39 ± 1.08
+
+real	1502m2.282s
+user	1497m38.023s
+sys	0m27.595s

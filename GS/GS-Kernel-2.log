@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+COX2_MD             118         23.9068            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    COX2_MD
+----------  ------------
+SVM         52.33 ± 5.93
+RF          48.95 ± 5.65
+
+real	350m10.926s
+user	349m10.733s
+sys	0m9.674s

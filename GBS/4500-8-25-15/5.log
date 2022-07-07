@@ -1,0 +1,19 @@
+Data set       Number of    Avg. Number     Avg. Number    Number of
+                  Graphs       of Edges     of Vertices      Classes
+-----------  -----------  -------------  --------------  -----------
+IMDB-BINARY          806        63.3226         15.9814            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 8.0 
+Displacement on each mode: 0.25 
+Max photon number: 15 
+
+OMP: Info #274: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Data set    IMDB-BINARY
+----------  -------------
+SVM         68.75 ± 0.82
+RF          68.07 ± 0.76
+
+real	8204m57.408s
+user	8169m41.392s
+sys	14m29.028s

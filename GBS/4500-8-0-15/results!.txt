@@ -1,0 +1,56 @@
+Number of samples per graph: 4500 
+Mean number of photons: 8.0 
+Displacement on each mode: 0.0 
+Max photon number: 15
+
+Data set    AIDS
+----------  ------------
+SVM         99.65 ± 0.00 *
+RF          99.65 ± 0.02
+
+Data set    BZR_MD
+----------  ------------
+SVM         60.33 ± 1.22
+RF          59.90 ± 1.33
+
+Data set    COX2_MD
+----------  ------------
+SVM         50.78 ± 4.50 
+RF          46.38 ± 3.29
+
+Data set    ENZYMES
+----------  ------------
+SVM         31.98 ± 1.89
+RF          27.01 ± 1.89
+
+Data set    ER_MD
+----------  ------------
+SVM         69.30 ± 0.56 *
+RF          67.42 ± 1.80
+
+Data set    IMDB-BINARY
+----------  -------------
+SVM         68.61 ± 0.41 *
+RF          66.28 ± 0.66
+
+Data set    MUTAG
+----------  ------------
+SVM         82.20 ± 0.89 
+RF          80.67 ± 1.01
+
+Data set    NCI1
+----------  ------------
+SVM         57.11 ± 2.27
+RF          60.20 ± 0.60
+
+
+Data set    PROTEINS
+----------  ------------
+SVM         62.23 ± 0.43
+RF          63.43 ± 0.53
+
+
+Data set    PTC_FM
+----------  ------------
+SVM         61.25 ± 1.42 *
+RF          50.87 ± 0.92

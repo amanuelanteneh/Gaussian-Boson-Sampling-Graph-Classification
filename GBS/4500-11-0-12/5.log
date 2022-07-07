@@ -8,3 +8,11 @@ Mean number of photons: 11.0
 Displacement on each mode: 0.0 
 Max photon number: 12 
 
+Data set    IMDB-BINARY
+----------  -------------
+SVM         67.53 ± 0.53
+RF          68.17 ± 1.00
+
+real	6845m8.604s
+user	6825m54.642s
+sys	1m55.829s

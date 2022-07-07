@@ -8,3 +8,11 @@ Mean number of photons: 11.0
 Displacement on each mode: 0.0 
 Max photon number: 12 
 
+Data set    PROTEINS
+----------  ------------
+SVM         61.79 ± 0.50
+RF          63.19 ± 0.67
+
+real	1599m1.194s
+user	1594m34.400s
+sys	0m15.172s

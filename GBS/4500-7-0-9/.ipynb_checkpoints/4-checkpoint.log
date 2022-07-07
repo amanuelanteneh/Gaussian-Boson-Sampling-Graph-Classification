@@ -1,0 +1,11 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+ER_MD               357        185.157         19.2717            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 7.0 
+Displacement on each mode: 0.0 
+Max photon number: 9 
+
+slurmstepd: error: *** JOB 40390341 ON udc-aw34-24c1 CANCELLED AT 2022-06-26T09:38:19 DUE TO TIME LIMIT ***

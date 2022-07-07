@@ -6,3 +6,11 @@ NCI1               1853          19.776        21.2774            2
 Kernel: Shortest Path 
 Parameters: Default GraKel parameters 
 
+Data set    NCI1
+----------  ------------
+SVM         73.21 ± 0.80
+RF          75.68 ± 0.48
+
+real	3027m6.177s
+user	3018m42.860s
+sys	0m54.703s

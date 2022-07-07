@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+BZR_MD              257         20.1012            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    BZR_MD
+----------  ------------
+SVM         51.28 ± 3.12
+RF          50.92 ± 2.28
+
+real	778m55.179s
+user	776m46.378s
+sys	0m16.453s

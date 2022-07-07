@@ -1,0 +1,11 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+COX2_MD             118        274.407         23.9068            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 15.0 
+Displacement on each mode: 0.0 
+Max photon number: 18 
+
+slurmstepd: error: *** JOB 40429366 ON udc-ba26-28c0 CANCELLED AT 2022-06-28T20:59:03 ***

@@ -1,0 +1,11 @@
+Data set      Number of    Avg. Number     Avg. Number    Number of
+                 Graphs       of Edges     of Vertices      Classes
+----------  -----------  -------------  --------------  -----------
+NCI1               1853        21.2774          19.776            2
+
+Number of samples per graph: 4500 
+Mean number of photons: 13.0 
+Displacement on each mode: 0.0 
+Max photon number: 15 
+
+slurmstepd: error: *** JOB 40427744 ON udc-aw34-5c1 CANCELLED AT 2022-06-28T20:59:29 ***

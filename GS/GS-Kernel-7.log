@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+NCI1               1853          19.776            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    NCI1
+----------  ------------
+SVM         51.46 ± 1.47
+RF          58.17 ± 1.03
+
+real	6424m18.185s
+user	6405m30.407s
+sys	2m53.706s

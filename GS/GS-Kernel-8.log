@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+PROTEINS            515         15.7728            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    PROTEINS
+----------  ------------
+SVM         65.37 ± 0.82
+RF          65.34 ± 0.82
+
+real	1531m25.299s
+user	1527m18.148s
+sys	0m25.049s

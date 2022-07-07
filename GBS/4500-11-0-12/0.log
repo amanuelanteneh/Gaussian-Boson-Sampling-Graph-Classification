@@ -8,3 +8,11 @@ Mean number of photons: 11.0
 Displacement on each mode: 0.0 
 Max photon number: 12 
 
+Data set    AIDS
+----------  ------------
+SVM         99.65 ± 0.00
+RF          99.65 ± 0.00
+
+real	1532m55.173s
+user	1528m51.251s
+sys	0m13.230s

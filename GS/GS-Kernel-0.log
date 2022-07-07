@@ -1,0 +1,17 @@
+Data set      Number of     Avg. Number    Number of
+                 Graphs     of Vertices      Classes
+----------  -----------  --------------  -----------
+AIDS               1723         11.1184            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174  
+
+Data set    AIDS
+----------  ------------
+SVM         99.27 ± 0.05
+RF          99.35 ± 0.10
+
+real	4823m51.150s
+user	4811m13.253s
+sys	1m8.386s

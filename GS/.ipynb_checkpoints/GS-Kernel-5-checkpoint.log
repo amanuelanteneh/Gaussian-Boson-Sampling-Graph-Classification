@@ -1,0 +1,17 @@
+Data set       Number of     Avg. Number    Number of
+                  Graphs     of Vertices      Classes
+-----------  -----------  --------------  -----------
+IMDB-BINARY          806         15.9814            2
+
+Kernel: Graphlet Sampling 
+k: 5 
+Samples: 5174 
+
+Data set    IMDB-BINARY
+----------  -------------
+SVM         68.25 ± 0.95
+RF          65.21 ± 1.21
+
+real	2625m34.678s
+user	2618m36.400s
+sys	0m39.623s
